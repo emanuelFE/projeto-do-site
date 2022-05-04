@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  padding: 50px;
+  font-family: verdana;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  position: center;
+  right: 10;
+  text-decoration: none;
+}
+header a:hover {
+  color: #f00;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main div {
+  border: 1px solid #eee;
+  width: 25%;
+  margin: 20px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 15pt;
+}
+h3 {
+  font-family: verdana;
+  font-size: 10pt;
+}
+section {
+  width: 40%;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 5px silver;
+  margin: auto;
+  margin-top: -5000px;
+  background-color: #fff;
+  transition: ease 0.5s;
+  z-index: 5000;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  display: block;
+}
+button {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+}
+img {
+  padding: center;
+  width: 100px;
+}
+body {
+  background-image: url("../img/DBZ1.jpg");
+}
+#mainslide .carousel-inner,
+#mainslider .carousel-item {
+  height: 90vh;
+}
+#mainslide .carousel-caption {
+  top: 30%;
+}
+#mainslide .carousel-captjon h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+#mainslide .carousel-captjon p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #fff;
+}
+.main-btn {
+  background-color: #65dafe;
+  color: #fff;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: 5s;
+}
+.main-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: transparent;
+  border-color: gray;
+}
+.carousel img {
+  height: 810px;
+  padding: 60px;
+  width: 800px !important;
+}
+.carousel p {
+  font-family: arial;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+}
